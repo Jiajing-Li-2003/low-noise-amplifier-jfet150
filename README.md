@@ -37,8 +37,8 @@ This two-stage amplifier is designed for applications requiring ultra-low noise 
 | Parameter              | Value                  |
 |------------------------|------------------------|
 | Total Gain             | ~60 dB (×1000)         |
-| Input Noise            | [e.g. ? nV/√Hz]        |
-| Bandwidth              | [e.g. 100 Hz – 100 kHz]|
+| Input Noise            | [2 nV/√Hz, @1kHz]      |
+| Bandwidth              | [10 Hz – 100 kHz]      |
 | Supply Voltage         | 0V-5V                  |
 | Input Impedance        | >? MΩ                  |
 | Output Impedance       | ~??? Ω                 |
@@ -64,12 +64,6 @@ This two-stage amplifier is designed for applications requiring ultra-low noise 
 
 ## 📊 Measurements
 
-| Test                  | Result                 |
-|-----------------------|------------------------|
-| Gain @ 1 kHz          | 66 dB                  |
-| Noise Density         | xx nV/√Hz              |
-| CMRR                  | xx dB                  |
-| Bandwidth             | xx Hz – xx kHz         |
 
 The FFT screenshots, oscilloscope captures, etc. are under `measurements/` folder.
 
