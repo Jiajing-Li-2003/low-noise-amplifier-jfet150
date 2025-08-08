@@ -65,18 +65,20 @@ This two-stage amplifier is designed for applications requiring ultra-low noise 
 ## 📊 Measurements
 
 
-![Amplification](measurements/Amplification.png)
+![Amplification](measurements/Amplification_1st_stage.png)
 
 ---
 
 ## 🖨️ Schematic and PCB
+
+Browse PCB and schematics online [here](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2FJiajing-Li-2003%2Flow-noise-amplifier-jfet150%2Fblob%2Fmain%2Fhardware%2Fampli%2520jfe150%2520searchcoil.kicad_pro).
 
 - [x] Schematic in KiCad
 - [x] PCB layout
 - [ ] Gerber files for fabrication
 - [ ] 3D render (optional)
 
-Images and files are into the `hardware/` directory.
+Images and files are in the `hardware/` directory.
 
 ---
 
