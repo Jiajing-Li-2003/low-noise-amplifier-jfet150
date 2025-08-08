@@ -1,0 +1,320 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "a28e5449-b263-4c02-9d33-0dc2fb9864b1")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 109.22 90.17) (xy 111.76 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "263b9bb4-72de-44e0-8d1a-5bd337b35c92")
+	)
+	(wire
+		(pts
+			(xy 140.97 115.57) (xy 140.97 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b052985-99f5-457f-9411-cf5e8e0670fe")
+	)
+	(wire
+		(pts
+			(xy 53.34 95.25) (xy 55.88 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53242f31-ab03-485c-a55c-23f45a0ffbd4")
+	)
+	(wire
+		(pts
+			(xy 85.09 114.3) (xy 85.09 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "566b492f-1032-4365-ad95-f7b5c6dd8cd0")
+	)
+	(wire
+		(pts
+			(xy 201.93 119.38) (xy 201.93 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a72613c4-9560-4f10-a4ba-37f8b1e55efd")
+	)
+	(wire
+		(pts
+			(xy 167.64 97.79) (xy 172.72 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2c77eda-6f38-4178-b4bb-969b016b1309")
+	)
+	(hierarchical_label "Fd1"
+		(shape output)
+		(at 53.34 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "07cdf058-f360-4a89-877c-088e84652f86")
+	)
+	(hierarchical_label "Vout1"
+		(shape output)
+		(at 201.93 119.38 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "24e92b39-5e9f-4337-b3a8-6bcadf4fdea1")
+	)
+	(hierarchical_label "Fd3"
+		(shape output)
+		(at 167.64 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5c2f9dd3-65a0-43d8-bcaa-d496a263380c")
+	)
+	(hierarchical_label "Fd2"
+		(shape output)
+		(at 109.22 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "80278464-6ef7-4c2d-94e8-0c5b4bf7d9c0")
+	)
+	(hierarchical_label "Vout1"
+		(shape output)
+		(at 140.97 115.57 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "94497420-74e6-4d50-a8f5-7d1d335b9e4a")
+	)
+	(hierarchical_label "Vout1"
+		(shape output)
+		(at 85.09 114.3 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b1eba1c7-acd6-430a-bec2-4f7d68a40197")
+	)
+	(sheet
+		(at 111.76 82.55)
+		(size 39.37 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5f772e2d-74a6-4d1a-bb3e-e78ba2cd9542")
+		(property "Sheetname" "Feedback 2"
+			(at 111.76 81.8384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Feedback 1.kicad_sch"
+			(at 111.76 111.0746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Fd" output
+			(at 111.76 90.17 180)
+			(uuid "c7cb633f-f92c-4fe5-8147-63489df6c3ba")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vout" input
+			(at 140.97 110.49 270)
+			(uuid "ed9a9acb-6bb2-4f9c-ad87-d2517479275b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ampli jfe150 searchcoil"
+				(path "/58dfe8f7-c08c-4b56-a3ea-b9cba32d76e9/22c81d20-635b-4ffa-afed-50aadf48a7c6"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 55.88 82.55)
+		(size 39.37 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "70087a26-1fc8-4f71-8ed2-d9f02039047d")
+		(property "Sheetname" "Feedback 1"
+			(at 55.88 81.8384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Feedback 1.kicad_sch"
+			(at 55.88 111.0746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Fd" output
+			(at 55.88 95.25 180)
+			(uuid "0836a447-38c7-44fe-ac09-d329ef8cc012")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vout" input
+			(at 85.09 110.49 270)
+			(uuid "a97eeaba-9e6b-415b-9a87-a5e8eaddc847")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ampli jfe150 searchcoil"
+				(path "/58dfe8f7-c08c-4b56-a3ea-b9cba32d76e9/22c81d20-635b-4ffa-afed-50aadf48a7c6"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 172.72 82.55)
+		(size 39.37 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "79f22b5a-e9b6-4d23-a7df-ca631f3b2da2")
+		(property "Sheetname" "Feedback 3"
+			(at 172.72 81.8384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Feedback 1.kicad_sch"
+			(at 172.72 112.3446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Fd" output
+			(at 172.72 97.79 180)
+			(uuid "93f7caed-c3d0-4b34-a0b2-b21e081550be")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vout" input
+			(at 201.93 111.76 270)
+			(uuid "af9b9f66-4a29-43b1-8edf-4ddd7c298c7a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ampli jfe150 searchcoil"
+				(path "/58dfe8f7-c08c-4b56-a3ea-b9cba32d76e9/22c81d20-635b-4ffa-afed-50aadf48a7c6"
+					(page "6")
+				)
+			)
+		)
+	)
+)
