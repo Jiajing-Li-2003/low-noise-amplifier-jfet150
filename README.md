@@ -64,8 +64,17 @@ This two-stage amplifier is designed for applications requiring ultra-low noise 
 
 ## 📊 Measurements
 
+The transfer function measurements were performed using two 20 dB attenuators, resulting in a total attenuation of 33 dB applied to the gain:
 
-![Amplification](measurements/Amplification_1st_stage.png)
+This is the transfer function of the first stage (blue curve):
+![Amplification 1st stage](measurements/Amplification_1st_stage.png)
+
+This is the transfer function of the second stage:
+![Amplification 2nd stage](measurements/Amplification_2nd_stage.png)
+
+And there we have the input noise of the amplifier
+![Input noise](measurements/Input_Noise.png)
+
 
 ---
 
@@ -73,12 +82,8 @@ This two-stage amplifier is designed for applications requiring ultra-low noise 
 
 Browse PCB and schematics online [here](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2FJiajing-Li-2003%2Flow-noise-amplifier-jfet150%2Fblob%2Fmain%2Fhardware%2Fampli%2520jfe150%2520searchcoil.kicad_pro).
 
-- [x] Schematic in KiCad
-- [x] PCB layout
-- [ ] Gerber files for fabrication
-- [ ] 3D render (optional)
 
-Images and files are in the `hardware/` directory.
+Files are in the `hardware/` directory.
 
 ---
 
@@ -109,4 +114,3 @@ Feel free to fork, open issues, or submit pull requests if you want to improve o
 Designed by Li Jiajing, This project was carried out during an assistant engineer internship under the supervision of Alexis Jeandet at the Plasma Physics Laboratory (LPP).
 
 ---
-
