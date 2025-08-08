@@ -65,14 +65,14 @@ This two-stage amplifier is designed for applications requiring ultra-low noise 
 ## 📊 Measurements
 
 
-The FFT screenshots, oscilloscope captures, etc. are under `measurements/` folder.
+![Amplification](measurements/Amplification.png)
 
 ---
 
 ## 🖨️ Schematic and PCB
 
-- [ ] Schematic in KiCad / Eagle / LTspice
-- [ ] PCB layout
+- [x] Schematic in KiCad
+- [x] PCB layout
 - [ ] Gerber files for fabrication
 - [ ] 3D render (optional)
 
